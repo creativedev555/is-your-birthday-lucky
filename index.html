@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link href="main.css" rel="stylesheet" >
     <title>lucky number</title>
 </head>
 <body>
-    <h1>Is your birthday lucky? 🥳 </h1>
-    <div>
-        <label for="date-of-birth">Date Of Birth: </label>
-        <input type="date" id="date-of-birth">
-        <label for="lucky-number">Lucky Number</label>
-        <input type="number" id="lucky-number">
+    <h1 class="heading">Is your birthday lucky? 🥳 </h1>
+    <div class="container">
+        <label class="input-label" for="date-of-birth">Date Of Birth: </label>
+        <input class="input" type="date" id="date-of-birth">
+        <label class="input-label" for="lucky-number">Lucky Number:</label>
+        <input class="input" type="number" id="lucky-number">
         <button id="check-number">Check Number</button>
+        <div id="output-box"></div>
     </div>
+
+    <footer class="footer">
+        <div class="footer-header">connect socially</div>
+        <ul class="social-links list-non-bullet">
+          <li class="list-item-inline">
+            <a class="link" href="https://github.com/creativedev555">Github</a></li>
+          <li class="list-item-inline">
+            <a class="link" href="https://twitter.com/PrabhatBadoni1">Twitter</a></li>
+          <li class="list-item-inline">
+            <a class="link" href="https://www.linkedin.com/in/prabhat-badoni-095b94241/">LinkedIn</a>
+          </li>
+        </ul>
+      </footer>
+
     <script src="index.js"></script>
 </body>
 </html>
