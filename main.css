@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+    --primary-color: #8655f6;
+    --oof-white: #f4f4f5;
+    --dark-zinc: #71717a;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+    background-color: var(--primary-color);
+    
+}
+
+.heading{
+    text-align: center;
+    color: #f4f4f5;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+     width: 50vw;
+    text-align: center;
+    margin: auto;
+}
+
+.input-label{
+    /* margin: .5rem; */
+    display: block;
+  font-size: large;
+  font-weight: 600;
+  color: #f4f4f5;
+}
+
+.input {
+    font-size: 14px;
+    outline: white;
+    padding: 0.6rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: .3rem;
+    border: 4px solid  #666666;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    align-self: center;
+    
+  }
+
+  #check-number {
+    background: #666666;
+    border: 4px solid white;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    margin-bottom: 1rem;
+    
+  }
+  #output-box {
+    display: block;
+    font-size: larger;
+    font-weight: 400;
+    margin: 1rem 0 0;
+    color: #f4f4f5;
+    padding-bottom: 2rem;
+    
+  }
+
+  .footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align:center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border: 8px solid white ;
+    position: fixed;
+    bottom: 0;
+    width: 85%;
+   
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
